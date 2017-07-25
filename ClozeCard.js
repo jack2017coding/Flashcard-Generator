@@ -2,7 +2,7 @@
 // Creating node module that exports a constructor for basic falshcards
 module.exports = ClozeCard;
 
-// CloseCard Function
+// ClozeCard Function
 function ClozeCard(text, cloze) {
 	this.full = text;
 	this.cloze = cloze;
